@@ -1,0 +1,4 @@
+Patch notes:
+- Added TURD_VALUE_MIN and TURD_VALUE_PRESSURE_MIN constants.
+- Will modify _get_valid_moves_sim to only add turd moves when turd_value_here >= TURD_VALUE_MIN, or for pressure >= TURD_VALUE_PRESSURE_MIN.
+- Update move ordering and scoring to use turd_value instead of heuristics.
